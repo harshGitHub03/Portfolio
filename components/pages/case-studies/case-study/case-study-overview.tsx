@@ -16,8 +16,12 @@ export default function CaseStudyOverview({ caseStudy }: {
           alt={caseStudy.title}
           className='h-[400px] md:h-[600px] object-cover rounded-xl'
         />
-        <div className='flex-col justify-center relative max-w-4xl mx-auto mt-16 md:my-32'>
-          <h2 className='mb-4 text-3xl md:text-4xl font-extralight'>
+        <div className='flex-col justify-center relative max-w-3xl mx-auto mt-14 md:mt-24 md:mb-28'>
+          <div className='flex items-center gap-4 mb-6'>
+            <span className='text-xs uppercase tracking-widest text-muted-foreground font-medium'>Overview</span>
+            <div className='flex-1 h-px bg-border' />
+          </div>
+          <h2 className='mb-6 text-3xl md:text-4xl font-light tracking-tight'>
             Project Overview
           </h2>
           <PortableTextEditor
