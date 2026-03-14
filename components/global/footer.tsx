@@ -90,7 +90,6 @@ function FooterLinks({ heading, links }: FooterLinksProps) {
           <li key={item._id}>
             <Link 
               href={`${item.link}`}
-              target="_blank"
               className="relative tracking-tight group"
             >
               {item.title}
